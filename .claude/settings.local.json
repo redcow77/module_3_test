@@ -10,7 +10,10 @@
       "Bash(\"./venv/Scripts/python.exe\" -m pip install --upgrade pip)",
       "Bash(\"./venv/Scripts/pip.exe\" install --only-binary=:all: -r requirements.txt)",
       "Bash(\"./venv/Scripts/python.exe\" -c \"from app.main import app; print\\(''Backend imports successful!''\\)\")",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(test:*)"
     ]
   }
 }
